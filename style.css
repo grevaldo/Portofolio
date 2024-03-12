@@ -110,11 +110,12 @@ section{
  }
 .home {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 8rem;
     background: var(--bg-color);
     padding-top: 10px;
+    flex-wrap: wrap;
 }
 .home .home-img img{
     width: 150px;
